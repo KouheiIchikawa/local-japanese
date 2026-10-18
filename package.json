@@ -1,0 +1,36 @@
+{
+  "name": "local-japanese",
+  "productName": "日本語 UI (Local Japanese)",
+  "version": "1.0.0",
+  "description": "Localの日本語表示。翻訳辞書と個別の改修を本体の更新から独立して保存します。",
+  "author": "Kohei Elimi Lab",
+  "license": "MIT",
+  "keywords": [
+    "local-addon",
+    "i18n",
+    "japanese"
+  ],
+  "main": "main.js",
+  "renderer": "renderer.js",
+  "engines": {
+    "local-by-flywheel": ">=10.1.2"
+  },
+  "scripts": {},
+  "dependencies": {
+    "i18next": "26.4.2"
+  },
+  "devDependencies": {
+    "jsdom": "29.1.1"
+  },
+  "copyright": "© 2026 Kohei Elimi Lab",
+  "icon": "icon.svg",
+  "bgColor": "#7654B4",
+  "homepage": "https://github.com/KouheiIchikawa/local-japanese#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KouheiIchikawa/local-japanese.git"
+  },
+  "bugs": {
+    "url": "https://github.com/KouheiIchikawa/local-japanese/issues"
+  }
+}
